@@ -89,6 +89,16 @@
 
         }
 
+        .leftsection .btn {
+            padding: 10px;
+            background: #000021;
+            color: white;
+            border: 2px solid;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
         .rightsection {}
 
         .purple {
@@ -112,6 +122,7 @@
 
         .secondsection h1 {
             font-size: 2rem;
+            padding: 20px;
         }
 
         .secondsection .box {
@@ -143,7 +154,7 @@
             position: relative;
             top: 25px;
             width: 200px;
-            left:-38px;
+            left: -38px;
 
         }
 
@@ -154,6 +165,26 @@
             width: 200px;
             left: -38px;
             font-size: 10px;
+        }
+
+        footer {
+            background-color: rgb(22, 5, 39);
+            height: 250px;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 25px 125px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 225px;
         }
     </style>
 </head>
@@ -179,6 +210,9 @@
             <div class="leftsection">
                 Hi, My Name is <span class="purple">Prayag Gupta</span> and I am a very passionate
                 <span id="element"></span>
+                <div class="buttons">
+                    <button type="button" class="btn"> Download Resume</button>
+                </div>
 
             </div>
             <div class="rightsection">
@@ -227,6 +261,37 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Prayag's Developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
