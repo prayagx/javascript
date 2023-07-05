@@ -186,6 +186,61 @@
         .footer>div {
             width: 225px;
         }
+        @media screen and (max-width: 1000px) {
+            body {
+            }
+
+            .firstsection {
+                flex-direction: column-reverse;
+            }
+
+            .leftsection {
+                font-size: 2rem;
+                margin: 40px 0;
+                text-align: center;
+            }
+
+            .rightsection {
+                text-align: center;
+            }
+
+            .secondsection {
+                height: auto;
+                padding: 40px;
+            }
+
+            .secondsection .box {
+                flex-direction: column;
+            }
+
+            .vertical {
+                margin: 0;
+            }
+            nav{
+                flex-direction: column;
+            }
+
+            .image-top,
+            .vertical-title,
+            .vertical-desc {
+                top: 75px;
+                left: 45px;
+                position: static;
+                margin: 20px auto;
+                text-align: center;
+            }
+
+            .footer {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .footer>div {
+                width: 100%;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 
