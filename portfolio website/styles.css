@@ -181,59 +181,57 @@ footer {
     width: 225px;
 }
 
-@media screen and (max-width: 1024px) {
-
-    .firstsection {
-        flex-direction: column-reverse;
-        margin: 0 0;
-    }
-
-    .leftsection {
-        font-size: 2rem;
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    .rightsection {
-        text-align: center;
-    }
-
-    .secondsection {
-        height: auto;
-        padding: 40px;
-    }
-
-    .secondsection .box {
-        flex-direction: column;
-    }
-
-    .vertical {
-        margin: 0;
-    }
-
-    nav {
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .image-top,
-    .vertical-title,
-    .vertical-desc {
-        top: 75px;
-        left: 45px;
-        position: static;
-        margin: 20px auto;
-        text-align: center;
-    }
-
-    .footer {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .footer>div {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+.form {
+    display: flex;
+    align-content: center;
+    margin: 50px 0;
+    justify-content: space-around;
 }
+
+.form>form {
+    position: relative;
+    top: 30px;
+    left: -336px;
+    width: 771px;
+    height: 393px;
+
+}
+
+.form>form>input {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000021;
+    color: #9c97f1;
+    border: 2px solid #9c97f1;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.form>form>textarea {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000021;
+    color: #9c97f1;
+    border: 2px solid #9c97f1;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.form>form>button {
+    padding: 10px;
+    background: #000021;
+    color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
